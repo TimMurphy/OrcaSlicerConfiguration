@@ -2,6 +2,9 @@
     "fan_max_speed": [
         "85"
     ],
+    "filament_flow_ratio": [
+        "1.02"
+    ],
     "filament_settings_id": [
         "Standard - Bambu PLA Basic - 0.40mm nozzle"
     ],
