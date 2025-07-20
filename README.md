@@ -37,7 +37,32 @@ To ensure version consistency and commit hygiene:
 
 3. Run `Prepare Exports for Git.ps1` to format and clean output for repository use.
 
-4. Use Git to stage and commit with clear annotations and semantic version tags.
+4. Use Git to stage and commit with clear annotations.
+
+---
+
+## 🧪 Calibration Logs
+
+Calibration results and tuning notes are organized by printer and nozzle size, with one markdown file per preset configuration. Use the following folder structure:
+
+`calibration-notes/<printer>/<nozzle>/<preset>.md`
+
+Examples:
+
+- `calibration-notes/Bambu Lab A1/0.40mm Nozzle/Standard - Bambu Lab A1 - 0.4mm nozzle.md`  
+- `calibration-notes/Bambu Lab A1/0.80mm Nozzle/High Flow - Bambu Lab A1 - 0.8mm nozzle.md`
+
+Each log includes date-stamped test results for flowrate, temperature, cooling behavior, and visual artifacts.
+
+---
+
+## 📦 Test Models
+
+All calibration models (.3mf) used for validating presets are stored in:
+
+`test-models/`
+
+These models include geometry-specific benchmarks for overhang, bridging, flowrate, and dimensional accuracy. They are part of Orca Slicer's calibration suite.
 
 ---
 
