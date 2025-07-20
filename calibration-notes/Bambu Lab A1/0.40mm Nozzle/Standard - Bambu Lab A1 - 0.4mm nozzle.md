@@ -16,7 +16,7 @@
 
 ## 🧪 Flowrate Test – Pass1 | 20 July 2025
 
-- **Model**: Standard line width calibration tower  
+- **Model**: Standard line width calibration panels
 - **Filament**: Bambu PLA Basic (White)  
 - **Printer**: Bambu A1  
 - **Layer Height**: 0.2 mm  
@@ -33,3 +33,27 @@
   - TR → BL: consistently smooth  
 - **Rating**:  
   - `0`: near-perfect balance between smoothness, texture, and extrusion control  
+
+---
+
+## 🧪 Flowrate Test – Pass2 | 21 July 2025
+
+- **Model**: Dynamic flowrate calibration panels
+- **Filament**: Bambu PLA Basic (White)  
+- **Printer**: Bambu A1  
+- **Layer Height**: 0.2 mm  
+- **Flow Ratio**: 1.02  
+
+### 🔍 Observations
+
+- **Extrusion Consistency**: Stable across variable speed and line width zones; no rippling or artifacts observed  
+- **Top Surface Quality**: Consistent and clean across all features  
+- **Corner Quality**: All quadrants maintained crisp geometry; BR corner showed minor roughness but within acceptable tolerance  
+- **Infill & Line Transitions**: Smooth and well-bonded; no visible underfill or overlap  
+- **Surface Texture**: Uniform across directional moves, with no pressure-related distortion
+
+### 🧠 Interpretation
+
+- Flow ratio of `1.02` continues to perform reliably under dynamic print conditions  
+- BR corner roughness noted in all samples, likely directional artifact—not flow-induced  
+- No speed-dependent anomalies observed; extrusion control appears robust
