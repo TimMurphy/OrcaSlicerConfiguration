@@ -79,3 +79,25 @@
 - Flow ratio continues to perform well even under high-demand slicing  
 - BR corner roughness likely linked to directional or cooling pattern—not flow control  
 - Validates extrusion profile for real-world speed and geometry shifts
+
+## 🧪 Flowrate Test – Pass4 (YOLO – Perfectionist) | 21 July 2025
+
+- **Model**: Advanced flowrate validation – max variation  
+- **Filament**: Bambu PLA Basic (White)  
+- **Printer**: Bambu A1  
+- **Layer Height**: 0.2 mm  
+- **Flow Ratio**: 1.02  
+
+### 🔍 Observations
+
+- **Overall Print Quality**: Flawless across speed zones and line width variations  
+- **Surface Texture**: Uniform and smooth throughout  
+- **Detail Fidelity**: Fine features and transitions rendered cleanly  
+- **Corner Quality**: TL, TR, BL corners crisp; BR slightly rough but within tolerance  
+- **Infill & Line Behavior**: Consistent bonding and directional stability
+
+### 🧠 Interpretation
+
+- Validates flow ratio under high-performance slicing parameters  
+- BR corner artifact persisted subtly across all passes—likely tied to geometry or directional stress  
+- Calibration suite confirms extrusion confidence for production-grade workflows
