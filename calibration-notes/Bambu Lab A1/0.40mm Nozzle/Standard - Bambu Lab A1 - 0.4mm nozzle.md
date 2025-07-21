@@ -57,3 +57,25 @@
 - Flow ratio of `1.02` continues to perform reliably under dynamic print conditions  
 - BR corner roughness noted in all samples, likely directional artifact—not flow-induced  
 - No speed-dependent anomalies observed; extrusion control appears robust
+
+## 🧪 Flowrate Test – Pass3 (YOLO) | 21 July 2025
+
+- **Model**: Dynamic flowrate test – aggressive conditions  
+- **Filament**: Bambu PLA Basic (White)  
+- **Printer**: Bambu A1  
+- **Layer Height**: 0.2 mm  
+- **Flow Ratio**: 1.02  
+
+### 🔍 Observations
+
+- **Overall Quality**: All zones printed cleanly under higher speed and pressure variation  
+- **Top Surface**: Uniform finish across sections; consistent layer bonding  
+- **Corner Fidelity**: TL, TR, and BL corners remained sharp and smooth  
+- **BR Corner**: Slight roughness, consistent with prior tests—still within acceptable tolerances  
+- **Line Behavior**: No signs of distortion or pressure instability during transitions
+
+### 🧠 Interpretation
+
+- Flow ratio continues to perform well even under high-demand slicing  
+- BR corner roughness likely linked to directional or cooling pattern—not flow control  
+- Validates extrusion profile for real-world speed and geometry shifts
