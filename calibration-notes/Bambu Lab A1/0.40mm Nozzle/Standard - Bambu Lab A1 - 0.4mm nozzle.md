@@ -101,3 +101,30 @@
 - Validates flow ratio under high-performance slicing parameters  
 - BR corner artifact persisted subtly across all passes—likely tied to geometry or directional stress  
 - Calibration suite confirms extrusion confidence for production-grade workflows
+
+## 🧪 Pressure Advance Calibration
+
+### Pass5 – PA Tower (`0.020 → 0.070`, Step: `0.010`)  
+- **Observation**: Corners improved; mid-back separation persisted  
+- **Interpretation**: PA ≈ `0.030 – 0.040` likely optimal
+
+### Pass6 – PA Tower (`0.025 → 0.050`, Step: `0.005`)  
+- **Observation**: Crisp corners; reduced back separation  
+- **Interpretation**: PA narrowing successful; visual improvement
+
+### Pass7 – PA Tower (`0.030 → 0.045`, Step: `0.005`)  
+- **Observation**: Cleanest result; corners sharp, back separation minimal  
+- **Final PA**: **0.037**
+
+---
+
+## ✅ Confirmed Calibration Settings
+
+| Category     | Value                   |
+|--------------|-------------------------|
+| Printer      | Bambu A1                |
+| Filament     | Bambu PLA Basic (White) |
+| Flow Ratio   | `1.02`                  |
+| PA Value     | `0.037`                 |
+| Layer Height | `0.2 mm`              |
+
