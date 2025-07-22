@@ -51,6 +51,23 @@ try {
         }
     }
 
+    # Step 3: Delete all bundle_structure.json files
+    $bundleStructureFiles = Get-ChildItem -Path $sourcePath -Recurse -Filter "bundle_structure.json"
+    if ($bundleStructureFiles.Count -eq 0) {
+        Write-Host "`n⚠️ No bundle_structure.json files found." -ForegroundColor Yellow
+    } else {
+        Write-Host "`n🗑️ Deleting bundle_structure.json files..." -ForegroundColor Green
+        foreach ($file in $bundleStructureFiles) {
+            try {
+                Remove-Item -Path $file.FullName -Force
+                Write-Host "✔️ Deleted: $($file.FullName)"
+            }
+            catch {
+                Write-Host "❌ Failed to delete: $($file.FullName)" -ForegroundColor Red
+            }
+        }
+    }
+
     Write-Host "`n✅ All done!" -ForegroundColor Cyan
 }
 catch {
