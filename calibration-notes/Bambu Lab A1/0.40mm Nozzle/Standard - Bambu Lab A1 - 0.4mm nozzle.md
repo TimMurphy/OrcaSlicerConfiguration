@@ -128,3 +128,25 @@
 | PA Value     | `0.037`                 |
 | Layer Height | `0.2 mm`              |
 
+## 🌀 Top Surface Fidelity Testing
+
+### Diagnostic Cube — Orientation & Pattern Study  
+
+- **Model**: 30 × 30 × 5 mm cube  
+- **Purpose**: Examine surface texture variation and quadrant asymmetry  
+- **Method**: Rotated test cubes, varied seam alignment, isolated top surface patterns
+
+### Findings  
+
+- Tactile roughness persisted in **TL and BR corners** across orientations  
+- Seam position changes yielded no improvement  
+- Best result from **Hilbert Curve** top surface pattern  
+  - ✅ Eliminated rough corner artifacts  
+  - ⚠️ Entire face visually consistent but mildly coarse to touch  
+- Honourable mention: **Octagram Spiral**  
+  - Smoother feel, but aesthetics less desirable
+
+### Verdict  
+- **Hilbert Curve** selected for current top surface pattern  
+- Roughness resolved in critical quadrants  
+- Visual and tactile finish acceptable for production used but will try to improve it
