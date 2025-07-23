@@ -24,20 +24,18 @@ These serve as baseline references for customized slicing workflows.
 
 To ensure version consistency and commit hygiene:
 
-1. In Orca Slicer, go to  
+1. In Orca Slicer, navigate to  
    `File → Export → Export Preset Bundle...`
 
-2. Export all relevant bundles:
+2. Select **Printer config bundle**
 
-   - Printer config bundle  
-   - Filament bundle  
-   - Printer presets  
-   - Filament presets  
-   - Process presets
+3. Select **all printers** when prompted
 
-3. Run `Prepare Exports for Git.ps1` to format and clean output for repository use.
+4. Save to the `preset-bundles` folder
 
-4. Use Git to stage and commit with clear annotations.
+5. Run `Prepare Exports for Git.ps1` to format and clean output for repository use
+
+6. Stage and commit changes with clear annotations
 
 ---
 
