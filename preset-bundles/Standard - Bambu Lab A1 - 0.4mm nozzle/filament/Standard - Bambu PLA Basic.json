@@ -16,10 +16,10 @@
     "is_custom_defined": "0",
     "name": "Standard - Bambu PLA Basic",
     "nozzle_temperature": [
-        "202"
+        "225"
     ],
     "nozzle_temperature_initial_layer": [
-        "202"
+        "230"
     ],
     "nozzle_temperature_range_high": [
         "205"
