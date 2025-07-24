@@ -1,0 +1,8 @@
+{
+    "from": "User",
+    "inherits": "0.40mm Standard @BBL A1 0.8 nozzle",
+    "is_custom_defined": "0",
+    "name": "Standard - Bambu PLA Basic - 0.8mm nozzle",
+    "print_settings_id": "Standard - Bambu PLA Basic - 0.8mm nozzle",
+    "version": "1.10.0.35"
+}
